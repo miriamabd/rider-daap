@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
+
+
+body {
+  margin: 10px;
+  
+}
+
+.car-container{
+  display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
+
+
+.card {
+    border:3;
+    width: 25rem;
+    margin: 20px;
+    border-radius: 0px; 
+  }
+
+
+
+
+.brand-name {
+  color: aliceblue;
+  font-family: "Bungee", sans-serif;
+  
+  font-size: large;
+  cursor: pointer;
+}
+.balance {
+  color: aliceblue;
+  font-family: "Bungee", sans-serif;
+  font-weight: 600;
+  font-size: large;
+  list-style: none;
+  text-decoration: none;
+}
+
+.mb-2 {
+  width: 400px;
+  padding-left: 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  background-color: #24252a;
+}
+
+
+.form-label {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: large;
+}
+
+.card-title {
+  color: black;
+  font-family: Fredoka, sans-serif;
+  font-weight: 600;
+  font-size: large;
+}
+
+.card-text {
+  color: black;
+  font-family: Fredoka, sans-serif;
+  font-weight: 600;
+  font-size: small;
+}
+
+.card-t {
+  color: white;
+  font-family:  Fredoka, sans-serif;
+  font-weight: 600;
+  font-size: small;
+}
+
+
+.card-textt {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: small;
+}
+
+
+
+
+
