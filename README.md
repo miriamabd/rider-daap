@@ -1,5 +1,5 @@
-# celo---vote
-Celo vote is a knowledge based platform where people can post controversial topics with two arguments and anyone can vote for and support any side of the arguments by paying 1 cUsd . This daap is bult with react on the celo block-chain.
+# Rider
+Rider is a daap where people or company can sell cars of different brand and types. This daap uses cUSD for payment and it is built on the celo block-chain and uses react for its front-end.
 
 # live Demo
-https://laughing-kilby-b230e8.netlify.app/
+https://quiet-mandazi-db54ab.netlify.app/
