@@ -95,8 +95,15 @@ contract Rider {
           "Transfer failed."
         );
 
+        cars[_index].owner = payable(msg.sender);
         cars[_index].sold ++;
         cars[_index].totalAvailable --;
+    }
+
+    function editCar(uint _index, uint _price)public{
+        require(msg.sender == cars[_index].owner, "You are not the owner");
+        Car storage c = cars[_index];
+        c.price = _price;
     }
     
     function getCarsLength() public view returns (uint) {
